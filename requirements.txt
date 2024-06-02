@@ -5,7 +5,6 @@ pandas
 matplotlib
 tweepy
 textblob
-pickle
 jupyter
 spacy 
 en_core_web_sm

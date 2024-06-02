@@ -8,7 +8,5 @@ textblob
 nltk-stopwords
 pickle
 jupyter
-
-
-pip install nltk spacy scikit-learn
-python -m spacy download en_core_web_sm
+spacy 
+en_core_web_sm

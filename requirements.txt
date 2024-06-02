@@ -1,0 +1,14 @@
+streamlit
+nltk
+scikit-learn
+pandas
+matplotlib
+tweepy
+textblob
+nltk-stopwords
+pickle
+jupyter
+
+
+pip install nltk spacy scikit-learn
+python -m spacy download en_core_web_sm

@@ -5,7 +5,6 @@ pandas
 matplotlib
 tweepy
 textblob
-nltk-stopwords
 pickle
 jupyter
 spacy 

@@ -2,6 +2,9 @@ import streamlit as st
 import pickle
 import time
 
+import nltk
+nltk.download('stopwords')
+
 # load the model
 model = pickle.load(open('sentiment_model.pkl', 'rb'))
 

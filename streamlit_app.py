@@ -10,7 +10,7 @@ model = pickle.load(open('sentiment_model.pkl', 'rb'))
 
 st.title('Sentiment Analysis :) ')
 
-tweet = st.text_input('Enter your Comments or Tweet')
+tweet = st.text_input('Enter your Comments or Feedback')
 
 submit = st.button('Predict')
 
@@ -23,9 +23,9 @@ if submit:
     #print(prediction[0])
     # st.write(prediction[0])
     if prediction[0] == 'Positive':
-        st.success('Positive Comment  :) ')
+        st.success('Positive  :) ')
     elif prediction[0] == 'Negative':
-        st.warning('Negative Comment    :( ')
+        st.warning('Negative    :( ')
     elif prediction[0] == 'Neutral':
-        st.info('Neutral Comment  :| ')
+        st.info('Neutral  :| ')
 
